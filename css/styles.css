@@ -5,9 +5,22 @@
 /* вторичный цвет фона #F5F4FA */
 /* цвет фона футера #2F303A */
 
+:root {
+  --title-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --button-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+}
+
 body {
-  background-color: #ffffff;
-  color: #212121;
+  background-color: var(--primary-bg-color);
+  color: var(--title-text-color);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -15,18 +28,23 @@ body {
 }
 
 .logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
   color: #000000;
 }
 
 .logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .section-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
