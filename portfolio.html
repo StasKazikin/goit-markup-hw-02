@@ -18,10 +18,10 @@
         <a class="logo link" href="./index.html" aria-label="Логотип"> <span class="logo-web">Web</span>Studio </a>
         <ul class="site-nav list">
           <li>
-            <a class="link" href="./index.html">Студия</a>
+            <a class="link current" href="./index.html">Студия</a>
           </li>
           <li>
-            <a class="link current" href="./portfolio.html">Портфолио</a>
+            <a class="link" href="./portfolio.html">Портфолио</a>
           </li>
           <li>
             <a class="link" href="">Контакты</a>
@@ -31,10 +31,14 @@
       <address>
         <ul class="address-nav list">
           <li>
-            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="link" href="mailto:info@devstudio.com">
+              <img src="./images/header/envelope.svg" alt="" /> info@devstudio.com
+            </a>
           </li>
           <li>
-            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="link" href="tel:+380961111111">
+              <img src="./images/header/smartphone.svg" alt="" /> +38 096 111 11 11
+            </a>
           </li>
         </ul>
       </address>
@@ -190,34 +194,55 @@
       </section>
     </main>
 
-    <!-- <footer>
+    <footer class="footer">
       <div>
-        <a href="./index.html" aria-label="Логотип"><span>Web</span>Studio</a>
+        <a class="logo link" href="./index.html" aria-label="Логотип"> <span class="logo-web">Web</span>Studio </a>
         <address>
-          <ul>
-            <li><a href="https://goo.gl/maps/eGHptjtnP1GtuNhV8">г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <ul class="list">
+            <li>
+              <a class="address link" href="https://goo.gl/maps/eGHptjtnP1GtuNhV8">г. Киев, пр-т Леси Украинки, 26</a>
+            </li>
+            <li>
+              <a class="address-nav link" href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li>
+              <a class="address-nav link" href="tel:+380991111111">+38 099 111 11 11</a>
+            </li>
           </ul>
         </address>
       </div>
       <div>
-        <b>Присоединяйтесь</b>
-        <ul>
+        <b class="calltoaction">Присоединяйтесь</b>
+        <ul class="list">
           <li>
-            <a href="" aria-label="иконка инстаграма"></a>
+            <a href="" aria-label="иконка инстаграма">
+              <img class="social-links" src="./images/footer-sociallinks/instagram.svg" alt="" />
+            </a>
           </li>
           <li>
-            <a href="" aria-label="иконка твиттера"></a>
+            <a href="" aria-label="иконка твиттера">
+              <img class="social-links" src="./images/footer-sociallinks/twitter.svg" alt="" />
+            </a>
           </li>
           <li>
-            <a href="" aria-label="иконка фейсбука"></a>
+            <a href="" aria-label="иконка фейсбука">
+              <img class="social-links" src="./images/footer-sociallinks/facebook.svg" alt="" />
+            </a>
           </li>
           <li>
-            <a href="" aria-label="иконка линкедина"></a>
+            <a href="" aria-label="иконка линкедина">
+              <img class="social-links" src="./images/footer-sociallinks/linkedin.svg" alt="" />
+            </a>
           </li>
         </ul>
       </div>
-    </footer> -->
+      <div>
+        <b class="calltoaction">Подпишитесь на рассылку</b>
+        <button class="button">
+          Подписаться
+          <img src="./images/footer-sociallinks/send.svg" alt="" />
+        </button>
+      </div>
+    </footer>
   </body>
 </html>
