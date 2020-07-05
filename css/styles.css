@@ -6,7 +6,7 @@
 /* цвет фона футера #2F303A */
 
 :root {
-  --title-text-color: #212121;
+  --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
   --white-color: #ffffff;
@@ -18,7 +18,7 @@
 
 body {
   background-color: var(--primary-bg-color);
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
 }
@@ -27,24 +27,107 @@ body {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .logo {
+  color: #000000;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
-  color: #000000;
 }
 
 .logo-web {
   color: var(--accent-color);
 }
 
-.link:hover,
-.link:focus {
+/* header */
+
+.site-nav .link,
+.address-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.address-nav .link:hover,
+.address-nav .link:focus {
   color: var(--accent-color);
 }
 
-.section-title {
-  color: var(--title-text-color);
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.address-nav .link {
+  color: var(--secondary-text-color);
+  font-style: normal;
+}
+
+/* HERO section */
+
+.hero-title {
+  color: var(--white-color);
+  /* для видимости заголовка */
+  background-color: #757575;
+  /*  */
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* About us section */
+
+.about-us .subtitle {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.about-us .description {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Our works section */
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.works .description {
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
 }
