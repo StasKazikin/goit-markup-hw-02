@@ -185,3 +185,43 @@ body {
 .social-links:focus {
   background-color: var(--accent-color);
 }
+
+/* portfolio */
+
+.button-portfolio {
+  background-color: var(--button-bg-color);
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.portfolio .title {
+  color: var(--primary-text-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.portfolio .description {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+.portfolio .text {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+}
