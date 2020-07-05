@@ -131,3 +131,18 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
+/* Our team section */
+
+.team .subtitle,
+.team .description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team .description {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+}
